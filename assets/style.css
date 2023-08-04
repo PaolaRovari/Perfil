@@ -1,0 +1,45 @@
+body {
+    background-color:antiquewhite;
+}
+main {
+    text-align: center;
+    width:800px;
+    margin: 0 auto;
+}
+.sobre-mim {
+    background-color:rgb(218, 142, 239);
+    padding: 10px 60px;
+    border-radius: 60px;
+   margin-top:50px ;
+}
+
+figure {
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.imagem{
+    display: flex;
+}
+.dados{
+    display: block;
+    background-color: blue;
+    width: 260px;
+    margin-top: 50px;
+    padding: 12px;
+}
+.informacoes{
+    display: flex;
+    background-color: blueviolet;
+}
+ span{
+    margin-top: 40px;
+}
