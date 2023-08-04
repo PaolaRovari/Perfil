@@ -2,24 +2,17 @@ body {
     background-color:antiquewhite;
 }
 main {
-    text-align: center;
+    
     width:800px;
     margin: 0 auto;
 }
-.sobre-mim {
-    background-color:rgb(218, 142, 239);
-    padding: 10px 60px;
-    border-radius: 60px;
-   margin-top:50px ;
-}
-
 figure {
     width: 200px;
     height:200px;
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 img {
     height: 100%;
@@ -31,15 +24,40 @@ img {
 }
 .dados{
     display: block;
-    background-color: blue;
     width: 260px;
-    margin-top: 50px;
+    margin-top: 30px;
     padding: 12px;
 }
 .informacoes{
     display: flex;
-    background-color: blueviolet;
+    height: 250px;
+    background-color: rgb(214, 212, 212);
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(134,126,117,.04), 0 0 12px rgb(242, 85, 111);
 }
  span{
     margin-top: 40px;
+}
+.linha1{
+    margin-top: 7px;
+    width: 90%;
+    height: 1px;
+    background-color: rgb(242, 85, 111);
+    margin-left: -1px;
+}
+.linha2{
+    margin-top: 7px;
+    width: 90%;
+    height: 1.2px;
+    background-color: rgb(242, 85, 111);
+    margin-left: -1px;
+}
+.botao{
+    margin-top: 20px;
+    background-color: rgb(248, 182, 193);
+    border: none;
+    border-radius: 2px;
+    width: 100px;
+    height: 40px;
+    box-shadow: 0 8px 16px rgba(134,126,117,.04), 0 0 12px rgb(242, 85, 111);
 }
